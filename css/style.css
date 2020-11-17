@@ -5,8 +5,12 @@ body {
 	font-weight: 800;
 }
 
+p {
+  line-height: 25px;
+}
+
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 /* Navigation Bar*/
@@ -19,11 +23,11 @@ header::after {
   display: table;
   clear: both;
 }
-
 .icon {
   width: 50px;
   height: 50px;
   padding-top: 10px;
+  padding-left: 40px;
   float: left;
 }
 
@@ -41,14 +45,15 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  padding-right: 50px;
 }
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 50px;
   padding-top: 23px;
 
-  position: relative;
+  position: relative; 
 }
 
 nav a {
@@ -85,7 +90,6 @@ nav a:hover::before {
   width: 100%;
 }
 
-/*About Me*/
 .aboutme {
   height: 500px;
   background: #222;
@@ -94,15 +98,35 @@ nav a:hover::before {
 }
 #bodyheader {
   float: left;
+  width: 90%;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 80px;
 }
 
 #bodytext {
   float: left;
   padding-top: 20px;
-  padding-left: 80px;
-  padding-right: 800px;
+  padding-left: 120px;
+  width: 600px;
+}
+
+.bodyimage {
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding-left: 200px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .bodyimage {
+    padding-left: 200px;
+  }
+  #bodytext {
+    width: 400px;
+  }
+  .body {
+    height: 600px;
+  }
 }
 /* Social*/
 .social {
@@ -114,15 +138,28 @@ nav a:hover::before {
   font-size: 35px;
   color: black;
   padding-top: 40px;
-  padding-right: 40px;
-  float: right;
+  padding-left: 80px;
+  float: left;
+  display: block;
+  width: 90%;
 }
 
 #socialtext {
-  float: right;
+  float: left;
   padding-top: 20px;
-  padding-left: 800px;
   padding-right: 80px;
+  width: 600px;
+}
+
+.socialimage {
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding-left: 200px;
+}
+
+.box {
+  float: left;
 }
 
 
