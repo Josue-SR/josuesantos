@@ -9,7 +9,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
-
+/* Navigation Bar*/
 header {
   background: white;
 }
@@ -69,7 +69,7 @@ nav a::before {
   background-color: #444;
 
   position: absolute;
-  top: 0;
+  top: 45px;
   width: 0%;
 
   transition: all ease-in-out 250ms;
@@ -78,3 +78,53 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+/*Body*/
+.body {
+  float: left;
+  width: 100%;
+}
+
+/*About Me*/
+.aboutme {
+  height: 500px;
+  background: #222;
+  color: white;
+  
+}
+#bodyheader {
+  float: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+#bodytext {
+  float: left;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 800px;
+}
+/* Social*/
+.social {
+  background: white;
+  height: 500px;
+}
+
+.social h1 {
+  font-size: 35px;
+  color: black;
+  padding-top: 40px;
+  padding-right: 40px;
+  float: right;
+}
+
+#socialtext {
+  float: right;
+  padding-top: 20px;
+  padding-left: 800px;
+  padding-right: 80px;
+}
+
+
+
+
