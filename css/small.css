@@ -1,18 +1,46 @@
 nav {
 	/*float: left;*/
 	margin-left: 0;
-	padding-left: 0;
 }
 
 nav li {
   display: inline-block;
-  margin-left: 40px;
-  padding-top: 23px;
+  margin-left: 50px;
+  padding-top: 10px;
+  height: 50px;
 
   position: relative; 
 }
 
+nav a::before {
+	top: 35px;
+}
 
 .icon {
-	padding-left: 160px;
+	margin-left: 100px;
 }
+.logo {
+	float: left;
+}
+
+#bodyheader {
+  padding-left: 190px;
+}
+.bodyimage {
+  display: none;
+}
+#bodytext {
+  width: 450px;
+  padding-left: 60px;
+}
+.aboutme {
+  height: 600px;
+}
+.socialimage {
+	display: none;
+}
+#socialtext {
+	width: 500px;
+	padding-left: 60px;
+}
+

@@ -1,3 +1,8 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
 body {
 	margin: 0;
 	background: #222;
@@ -24,8 +29,8 @@ header::after {
   clear: both;
 }
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 88px;
+  height: 60px;
   padding-top: 10px;
   padding-left: 40px;
   float: left;
@@ -33,8 +38,9 @@ header::after {
 
 .logo {
   float: left;
-  padding: 10px 5px;
-  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 25px;
 }
 
 nav {
@@ -91,6 +97,7 @@ nav a:hover::before {
 }
 
 .aboutme {
+  width: 100%;
   height: 500px;
   background: #222;
   color: white;
@@ -107,31 +114,20 @@ nav a:hover::before {
   float: left;
   padding-top: 20px;
   padding-left: 120px;
-  width: 600px;
+  width: 700px;
 }
 
 .bodyimage {
-  height: 300px;
+  height: 200px;
   width: 300px;
   float: left;
   padding-left: 200px;
-}
-
-@media only screen and (max-width: 1250px) {
-  .bodyimage {
-    padding-left: 200px;
-  }
-  #bodytext {
-    width: 400px;
-  }
-  .body {
-    height: 600px;
-  }
 }
 /* Social*/
 .social {
   background: white;
   height: 500px;
+  width: 100%;
 }
 
 .social h1 {
@@ -152,7 +148,7 @@ nav a:hover::before {
 }
 
 .socialimage {
-  height: 300px;
+  height: 200px;
   width: 300px;
   float: left;
   padding-left: 200px;
@@ -160,6 +156,7 @@ nav a:hover::before {
 
 .box {
   float: left;
+  width: 100%;
 }
 
 
