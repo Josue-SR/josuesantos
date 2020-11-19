@@ -5,7 +5,7 @@ nav {
 
 nav li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 40px;
   padding-top: 10px;
   height: 50px;
 
@@ -17,21 +17,23 @@ nav a::before {
 }
 
 .icon {
-	margin-left: 100px;
+	margin-left: 80px;
 }
 .logo {
 	float: left;
 }
 
 #bodyheader {
-  padding-left: 190px;
+  padding-left: 160px;
 }
 .bodyimage {
   display: none;
 }
 #bodytext {
-  width: 450px;
+  width: 100%;
+  height: 450px;
   padding-left: 60px;
+  padding-right: 25px;
 }
 .aboutme {
   height: 600px;
@@ -40,7 +42,12 @@ nav a::before {
 	display: none;
 }
 #socialtext {
-	width: 500px;
+	width: 100%;
 	padding-left: 60px;
 }
+
+.social h1 {
+  padding-left: 170px;
+}
+
 
