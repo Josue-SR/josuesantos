@@ -24,7 +24,8 @@ nav a::before {
 }
 
 #bodyheader {
-  padding-left: 140px;
+
+  padding-left: 130px;
 }
 .bodyimage {
   display: none;
