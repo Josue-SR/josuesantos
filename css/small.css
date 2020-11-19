@@ -36,7 +36,7 @@ nav a::before {
   padding-right: 25px;
 }
 .aboutme {
-  height: 600px;
+  height: 700px;
 }
 .socialimage {
 	display: none;
@@ -48,6 +48,7 @@ nav a::before {
 
 .social h1 {
   padding-left: 150px;
+  padding-top: 0;
 }
 
 .social {
