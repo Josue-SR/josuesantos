@@ -18,23 +18,19 @@ p {
 .container {
 	width: 100%;
 	margin: 0 auto;
+  padding: 0 auto;
 }
 /* Navigation Bar*/
-header {
-  background: white;
-  overflow: hidden;
-}
 
-header::after {
-  content: '';
-  display: table;
-  clear: both;
+.navbar {
+  overflow: hidden;
+  background: white;
 }
 .icon {
-  width: 88px;
-  height: 60px;
-  padding-top: 10px;
-  padding-left: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
   float: left;
 }
 
@@ -58,9 +54,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 50px;
-  padding-top: 23px;
-
+  margin-left: 20px;
+  padding-top: 30px;
   position: relative; 
 }
 
@@ -92,6 +87,22 @@ nav a:hover::before {
   width: 100%;
 }
 
+.menu-btn {
+  display: none;
+}
+
+.fa {
+  display: none;
+}
+
+.times {
+  display: none;
+}
+
+.menu-content {
+  display: none;
+}
+
 /*Body*/
 .body {
   float: left;
@@ -107,28 +118,33 @@ nav a:hover::before {
 }
 #bodyheader {
   float: left;
-  width: 90%;
-  padding-top: 120px;
-  padding-left: 80px;
+  width: 100%;
+  padding-top: 26px;
+  text-align: center;
 }
 
 #bodytext {
   float: left;
   padding-top: 20px;
-  padding-left: 120px;
-  width: 700px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 60px;
+  width: 50%;
 }
 
 .bodyimage {
-  height: 200px;
-  width: 300px;
-  float: left;
-  padding-left: 200px;
+  display: block;
+  margin-right: 100px;
+  height: 150px;
+  width: 20%;
+  float: right;
+
 }
 /* Social*/
 .social {
+  float: left;
   background: white;
-  height: 500px;
   width: 100%;
 }
 
@@ -136,35 +152,40 @@ nav a:hover::before {
   font-size: 35px;
   color: black;
   padding-top: 40px;
-  padding-left: 80px;
   float: left;
   display: block;
-  width: 90%;
+  text-align: center;
+  width: 100%;
 }
 
 #socialtext {
   float: left;
-  padding-top: 0;
-  padding-right: 80px;
-  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 60px;
+  width: 50%;
 }
 
 .socialimage {
-  height: 200px;
-  width: 300px;
+  display: block;
+  margin-left: 100px;
+  height: 150px;
+  width: 20%;
   float: left;
-  padding-left: 200px;
+
 }
 
-.box {
-  float: left;
-  width: 100%;
-}
 
 .sticky {
   position: fixed;
-  top: 0;
+  top: 0%;
   width: 100%;
+}
+
+.sticky + .body {
+  padding-top: 60px;
 }
 
 

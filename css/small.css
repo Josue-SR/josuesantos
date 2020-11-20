@@ -1,5 +1,87 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: none;
+}
+
+nav ul {
+  padding-right: 25px;
+}
+.menu-btn {
+  display: initial;
+  margin-top: 18px;
+  background: none;
+  border-color: black;
+}
+
+.fa {
+  display: block;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  font-size: 30px;
+}
+
+.fa:hover {
+  cursor: pointer;
+  color: #1CB6EE;
+}
+.fa-times {
+  position: fixed;
+  top: 10%;
+  right: 3%;
+}
+
+.menu-content {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 100%;  
+  background: #222;
+  float: left;
+}
+
+.menu-content i {
+  margin-top: 15px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+.menu-content a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.bodyimage {
+  float: left;
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+#bodytext {
+  width: 100%;
+  margin-left: 0;
+}
+
+.socialimage {
+  margin-left: 40%;
+  margin-right: 20%;
+
+}
+
+#socialtext {
+  width: 100%;
+  margin-left: 0;
+}
+
+/*
 nav {
-	/*float: left;*/
 	margin-left: 0;
 }
 
@@ -55,5 +137,5 @@ nav a::before {
 .social {
   height: 600px;
 }
-
+*/
 
