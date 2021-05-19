@@ -1,3 +1,4 @@
+
 .container {
   width: 100%;
   margin: 0;
@@ -17,7 +18,6 @@ nav ul {
   background: none;
   border-color: black;
 }
-
 .fa {
   display: block;
   margin-top: 18px;
@@ -27,27 +27,37 @@ nav ul {
   font-size: 30px;
 }
 
+.dropMenu {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .fa:hover {
   cursor: pointer;
   color: #1CB6EE;
 }
+
 .fa-times {
   position: fixed;
-  top: 10%;
-  right: 3%;
+  top: 0%;
+  right: 4%;
+}
+.times {
+  visibility: hidden;
+  display: block;
 }
 
 .menu-content {
-  margin-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 100%;
   text-align: center;
-  width: 100%;  
+  width: 100%; 
   background: #222;
   float: left;
 }
 
 .menu-content i {
-  margin-top: 15px;
+  margin-top: 90px;
   padding: 5px 5px 5px 5px;
   color: white;
 }
@@ -56,6 +66,7 @@ nav ul {
   color: white;
   text-decoration: none;
   font-family: 'Work Sans', sans-serif;
+  padding-bottom: 40px;
 }
 
 .bodyimage {
@@ -80,62 +91,4 @@ nav ul {
   margin-left: 0;
 }
 
-/*
-nav {
-	margin-left: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 30px;
-  padding-top: 10px;
-  height: 50px;
-
-  position: relative; 
-}
-
-nav a::before {
-	top: 35px;
-}
-
-.icon {
-	margin-left: 60px;
-}
-.logo {
-	float: left;
-}
-
-#bodyheader {
-
-  padding-left: 130px;
-}
-.bodyimage {
-  display: none;
-}
-#bodytext {
-  width: 100%;
-  height: 450px;
-  padding-left: 50px;
-  padding-right: 25px;
-}
-.aboutme {
-  height: 700px;
-}
-.socialimage {
-	display: none;
-}
-#socialtext {
-	width: 100%;
-	padding-left: 50px;
-}
-
-.social h1 {
-  padding-left: 150px;
-  padding-top: 0;
-}
-
-.social {
-  height: 600px;
-}
-*/
 
