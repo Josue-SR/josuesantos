@@ -1,2 +1,2 @@
-# josuesantos.me
-Personal Website: http://josuesantos.me
+# josue.tech
+Personal Website: http://www.josue.tech
